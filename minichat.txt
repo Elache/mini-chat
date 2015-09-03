@@ -1,0 +1,18 @@
+Ce fichier présente des informations sur Git / Github. 
+Pour la présentation du Mini-Chat en lui-même : voir index.php.
+
+Mini-chat (projet de tchat web, formation PHP MySql) 
+a, pendant son développement, été 
+également utilisé dans le cadre de la formation Git / GitHub (TP). 
+Application concrète et adoption immédiate Git / Github !
+
+COMMITS et HISTORIQUE GIT - GITHUB : 
+
+* Initial commit = (Readme) créé sur GitHub puis cloné -> local
+* Version 1 : inclut les 2 fichiers PHP du projet Mini-chat (version 02/09/2015)
+        -->    Push -> Github
+        Modification (en ligne) du minichat.txt
+* Update : Fichier minichat.txt modifié
+        Github -> Commit 
+        Local : pull
+        Git OK
