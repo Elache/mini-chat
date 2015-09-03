@@ -26,10 +26,24 @@ Commit 2 : Fonctionnalités ajoutées le 3 septembre
 		(1) Récupérer "pseudo saisi" sur le formulaire -->  Valeur du Cookie
 		(2), (3), (4) à réaliser
 		
-Commit 3 : 
+Commit 3 : Essai Pseudo/Cookie : Version buggée
 		-- mise à jour minichat.txt
 		-- Ajout export MySQL (base vide)
-		-- sur (1) : premiers éléments --> fonctionnement à débugger 
+		-- sur (1) : essai pour [pseudo --> cookie --> formulaire pré-rempli] Pb !!
+	ToDoList : 	
+		(1) : non fonctionnel, à débugger
+		(2), (3), (4) à réaliser
+		
+		
+Commit 4 : Programme fonctionnel / A compléter
+		-- Pré-remplissage posteur sur formulaire après 1er message - Sans cookie
+		-- mise à jour minichat.txt
+	ToDoList : 	
+		(2) à réaliser
+	+	(5) rafraîchir la page des posts périodiquement (nouveaux visibles)
+		(3), (4) à réaliser
+	Pour aller plus loin : fonctionnement avec cookie
+Remarque : conditions du Repository sur GitHub réunies (4 commits) pour TP Github (cours M.G Gauthier) --> envoi à la correction
 		
 		
 --------------------	
