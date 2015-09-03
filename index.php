@@ -1,9 +1,10 @@
 <?php
-setcookie('cookie_chat','----',time()+3600,null,null,false,true);
+
+setcookie('cookie_chat','Nom du posteur',time()+3600,null,null,false,true);
 	// cookie, stockée 1 heure, httpOnly activé pour sécurité
 
 // ATTENTION : stockage fonction du formulaire à implémenter	
-	
+
 
 ?>
 
@@ -29,11 +30,14 @@ setcookie('cookie_chat','----',time()+3600,null,null,false,true);
  catch (Exception $e) {
 	 die('Erreur : ' . $e->getMessage());
  }
-?>
+
+ 
+ 
+ ?>
 
 <!-- Formulaire -->
 <form method="post" action="minichat_post.php">
-	<P>Votre pseudo : <input type="text" name="posteur" value="Posteur"><br/>
+	<P>Votre pseudo : <input type="text" name="posteur" value="<?php echo $_COOKIE['cookie_chat'] ; ?>"><br/>
 	<P>Votre message : <input type="text" name="message" value="Message"><br/>
 	<input type="submit" submit="Envoyer">
 	<!-- // récupération du nom du posteur à implémenter (sur cookie) et en value pour posteur -->

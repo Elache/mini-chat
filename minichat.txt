@@ -1,18 +1,38 @@
-Ce fichier présente des informations sur Git / Github. 
-Pour la présentation du Mini-Chat en lui-même : voir index.php.
+Projet de Mini-chat (Tchat)
 
-Mini-chat (projet de tchat web, formation PHP MySql) 
-a, pendant son développement, été 
-également utilisé dans le cadre de la formation Git / GitHub (TP). 
-Application concrète et adoption immédiate Git / Github !
+Formulaire (pseudo / message) ; affichage des 5 derniers messages (MySQL)
 
-COMMITS et HISTORIQUE GIT - GITHUB : 
 
-* Initial commit = (Readme) créé sur GitHub puis cloné -> local
-* Version 1 : inclut les 2 fichiers PHP du projet Mini-chat (version 02/09/2015)
-        -->    Push -> Github
-        Modification (en ligne) du minichat.txt
-* Update : Fichier minichat.txt modifié
-        Github -> Commit 
-        Local : pull
-        Git OK
+--------------------	
+Utilisé pour :
+- Cours de M. Nebra, PHP/MySQL, OpenClassRooms
+- Cours de M. G. Gauthier, GIT/GITHUB
+
+
+--------------------	
+Fonctionnalités au 2 septembre 2015 (commit initial):
+		-- Formulaire (index.php) 
+		--> INSERT bdd (minichat_post.php / redirection index.php)
+		--> Affiche 5 derniers messages postés (index.php)
+	ToDoList : 
+		--> PHP - Retenir Pseudo / Cookie --> Pré-remplir formulaire
+		--> PHP - Messages antérieurs / Pagination 
+		--> Finaliser commentaires (général + code)
+		--> Toilettage base de données / Essais
+
+		
+--------------------	
+Environnement / Développement
+WAMP 2.5 : 
+	PHP 5.5.12
+	MySQL 5.6.17
+	PHPMyAdmin 4.1.14
+	Apache 2.4.9
+
+		
+		
+		
+		
+		
+		
+		-
