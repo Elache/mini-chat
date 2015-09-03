@@ -10,16 +10,27 @@ Utilisé pour :
 
 
 --------------------	
-Fonctionnalités au 2 septembre 2015 (commit initial):
+Commit 1 : Fonctionnalités au 2 septembre 2015 :
 		-- Formulaire (index.php) 
 		--> INSERT bdd (minichat_post.php / redirection index.php)
 		--> Affiche 5 derniers messages postés (index.php)
 	ToDoList : 
-		--> PHP - Retenir Pseudo / Cookie --> Pré-remplir formulaire
-		--> PHP - Messages antérieurs / Pagination 
-		--> Finaliser commentaires (général + code)
-		--> Toilettage base de données / Essais
+		(1)--> PHP - Retenir Pseudo / Cookie --> Pré-remplir formulaire
+		(2)--> PHP - Messages antérieurs / Pagination 
+		(3)--> Finaliser commentaires (général + code)
+		(4)--> Toilettage base de données (essais)
 
+Commit 2 : Fonctionnalités ajoutées le 3 septembre
+		-- Formulaire pré-rempli à partir de la valeur du Cookie (mais codée en dur)
+	ToDoList : 	
+		(1) Récupérer "pseudo saisi" sur le formulaire -->  Valeur du Cookie
+		(2), (3), (4) à réaliser
+		
+Commit 3 : 
+		-- mise à jour minichat.txt
+		-- Ajout export MySQL (base vide)
+		-- sur (1) : premiers éléments --> fonctionnement à débugger 
+		
 		
 --------------------	
 Environnement / Développement

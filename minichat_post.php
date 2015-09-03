@@ -31,16 +31,15 @@ $req = $bdd->prepare('INSERT INTO messages (id,posteur,message,date_message) VAL
 $req->execute(array('posteur'=>$_POST['posteur'],'message'=>$_POST['message']));
 
 
-
+// transmission dans l'url du nom du posteur saisi dans le formulaire
 // retour index.php (formulaire et messages)
+$posteur_pour_cookie = $_POST['posteur'];
+$url_variable = "index.php?qui_posteur=" . $_POST['posteur'] ;
 
-header('Location: index.php'); 
+ header("Location: $url_variable"); 
 
 ?>
 
  
    </body>
 </html>
-
-
- 

@@ -1,9 +1,18 @@
 <?php
+if(!isset($_GET['qui_posteur']))
+{
+		$retiens_posteur = "Votre pseudo";
+		echo $retiens_posteur;
+		setcookie('cookie_chat',$retiens_posteur,time()+3600,null,null,false,true);
+}
+{		
+		$retiens_posteur = strip_tags($_GET['qui_posteur']);
+		echo $retiens_posteur;
+		setcookie('cookie_chat',$retiens_posteur,time()+3600,null,null,false,true);
+}
 
-setcookie('cookie_chat','Nom du posteur',time()+3600,null,null,false,true);
-	// cookie, stockée 1 heure, httpOnly activé pour sécurité
+// cookie, stockée 1 heure, httpOnly activé pour sécurité
 
-// ATTENTION : stockage fonction du formulaire à implémenter	
 
 
 ?>
