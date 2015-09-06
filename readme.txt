@@ -1,4 +1,4 @@
-Projet de Mini-chat (Tchat)
+﻿Projet de Mini-chat (Tchat)
 
 Formulaire (pseudo / message) ; affichage des 5 derniers messages (MySQL)
 
@@ -47,7 +47,9 @@ Commit 4 : Programme fonctionnel / A compléter
 Commit 5 : minichat.txt renommé en Readme.txt - pas de changement PHP
 Remarque : conditions du Repository sur GitHub réunies (>=4 commits) pour TP Github (cours M.G Gauthier) --> envoi à la correction
 		
-		
+Commit 6 : toilettage du code (HTML / minichat_post.php)
+
+
 --------------------	
 Environnement / Développement
 WAMP 2.5 : 
